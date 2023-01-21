@@ -1,0 +1,24 @@
+#header{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+#header-img{
+  width: 200px;
+}
+#nav-bar{
+  position:fixed;
+  right:0px;
+}
+nav ul {
+  display:flex;
+  list-style: none;
+  align-items:center;
+  justify-content: space-between;
+}
+@media only screen and (max-width:420px){
+  nav ul {
+  display:block;
+}
+}
